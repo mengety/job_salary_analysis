@@ -56,9 +56,8 @@ Structured table references
                         │
                         ├── Job_Salary_Analysis.xlsx
                         ├── README.md
-                        └── screenshots/
-                            ├── dashboard.png
-                            └── formula_example.png
+                        └── dashboard.png
+                            
 
 📈 How It Works
 
@@ -112,8 +111,7 @@ Better for job market analysis
 
 🖼️ Screenshots
 ## 📊 Dashboard Preview
-
-![Dashboard](dashboard.png)
+dashboard.png
 
 🚀 How to Use
 
@@ -152,3 +150,26 @@ Add experience-level filtering
 Convert to Power BI dashboard
 
 Automate data update with Power Query
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, customize, and distribute this project for personal or commercial purposes.
+
+See the LICENSE file for full details.
+
+
+## 📊 Data Source & Acknowledgment
+
+The dataset used in this project was provided by Luke Barousse through his platform:
+
+[datanerd.tech](https://datanerd.tech/)
+
+Special thanks to Luke Barousse for making high-quality job market datasets available for educational and analytical purposes.
+
+This project is an independent analysis and is not officially affiliated with Luke Barousse or Datanerd.Tech.
+
+
+
