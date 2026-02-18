@@ -37,13 +37,13 @@ Schedule Type
 
 ✅ Uses advanced Excel functions:
 
-MEDIAN()
+             MEDIAN()
 
-IF()
+            IF()
 
-SEARCH()
+            SEARCH()
 
-ISNUMBER()
+            ISNUMBER()
 
 Structured table references
 
@@ -51,28 +51,28 @@ Structured table references
 ✅ Works with large structured datasets
 ✅ Clean analysis-ready design
 
-📂 File Structure
-job-salary-analysis/
-│
-├── Job_Salary_Analysis.xlsx
-├── README.md
-└── screenshots/
-    ├── dashboard.png
-    └── formula_example.png
+                       📂 File Structure
+                       job-salary-analysis/
+                        │
+                        ├── Job_Salary_Analysis.xlsx
+                        ├── README.md
+                        └── screenshots/
+                            ├── dashboard.png
+                            └── formula_example.png
 
 📈 How It Works
 
 The core formula logic:
 
-=MEDIAN(
-    IF(
-        (jobs[job_title_short]=A2) *
-        (jobs[salary_year_avg]<>0) *
-        (jobs[job_country]=country) *
-        (ISNUMBER(SEARCH(schedule,jobs[job_schedule_type]))),
-        jobs[salary_year_avg]
-    )
-)
+                      =MEDIAN(
+                               IF(
+                                      (jobs[job_title_short]=A2) *
+                                      (jobs[salary_year_avg]<>0) *
+                                      (jobs[job_country]=country) *
+                                      (ISNUMBER(SEARCH(schedule,jobs[job_schedule_type]))),
+                                     jobs[salary_year_avg]
+                                  )
+                        )
 
 🔍 What This Formula Does
 
@@ -113,39 +113,7 @@ Better for job market analysis
 🖼️ Screenshots
 ## 📊 Dashboard Preview
 
-![Dashboard](screenshots/dashboard.png)
-
-
-Add These:
-
-📊 Dashboard view
-
-📐 Formula view
-
-📋 Data table preview
-
-📌 Where to Put Screenshots
-
-Create a folder inside your project:
-
-screenshots/
-
-
-Then save your images like:
-
-screenshots/dashboard.png
-screenshots/formula_example.png
-
-
-In README, display them like this:
-
-## Dashboard Preview
-
-![Dashboard](screenshots/dashboard.png)
-
-## Formula Example
-
-![Formula](screenshots/formula_example.png)
+![Dashboard](dashboard.png)
 
 🚀 How to Use
 
@@ -153,29 +121,29 @@ Open Job_Salary_Analysis.xlsx
 
 Select:
 
-Job title
+         Job title
 
-Country
+         Country
 
-Schedule type
+        Schedule type
 
-View automatically calculated median salary
+View automatically calculated median salary and chart  and map.
 
 📊 Skills Demonstrated
 
-Excel Data Analysis
+          Excel Data Analysis
 
-Structured Tables
+          Structured Tables
 
-Advanced Filtering Logic
+          Advanced Filtering Logic
 
-Conditional Array Formulas
+          Conditional Array Formulas
 
-Salary Data Cleaning
+          Salary Data Cleaning
 
-Analytical Thinking
+          Analytical Thinking
 
-🔮 Future Improvements
+🔮 Future Improvements in the upcoming days
 
 Add salary visualization charts
 
@@ -184,32 +152,3 @@ Add experience-level filtering
 Convert to Power BI dashboard
 
 Automate data update with Power Query
-
-📍 Where To Put Everything
-
-If uploading to GitHub:
-
-Create new repository
-Name: job-salary-analysis
-
-Upload:
-
-Excel file
-
-README.md
-
-screenshots folder
-
-💡 Should You Add Screenshots?
-
-YES. Always.
-
-Recruiters:
-
-Do not download Excel first
-
-They look at screenshots
-
-They scan README quickly
-
-Screenshots increase project professionalism by 200%.
