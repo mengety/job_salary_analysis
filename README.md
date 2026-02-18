@@ -110,7 +110,7 @@ Median gives a more realistic central salary
 Better for job market analysis
 
 ## 📊 Dashboard Preview
-dashBoard.png
+![Dashboard](dashboard.png)
 
 🚀 How to Use
 
@@ -169,6 +169,7 @@ The dataset used in this project was provided by Luke Barousse through his platf
 Special thanks to Luke Barousse for making high-quality job market datasets available for educational and analytical purposes.
 
 This project is an independent analysis and is not officially affiliated with Luke Barousse or Datanerd.Tech.
+
 
 
 
