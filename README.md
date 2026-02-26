@@ -1,5 +1,5 @@
-📊#Job Salary Analysis (Excel Project)
-📌 Project Overview
+#Job Salary Analysis (Excel Project)
+### Project Overview
 
 This project is an interactive Excel-based salary analysis tool that helps users determine the median salary of a job based on:
 
@@ -7,11 +7,11 @@ This project is an interactive Excel-based salary analysis tool that helps users
 
              🕒 Job Schedule Type (Full-time, Part-time, Contract, etc.)
 
-💼 ##Job Title
+ ##Job Title
 
 The goal is to help job seekers, analysts, and researchers quickly analyze salary trends across different countries and work types using structured Excel formulas and data filtering techniques.
 
-🎯## Project Objective
+## Project Objective
 
 Many job seekers struggle to understand:
 
@@ -25,7 +25,7 @@ This Excel tool solves that by dynamically calculating:
 
 Median Salary = MEDIAN(filtered salaries based on selected filters)
 
-🛠️ Features
+### Features
 
 ✅ Dynamic filtering by:
 
@@ -45,7 +45,7 @@ Schedule Type
 
             ISNUMBER()
 
-Structured table references
+### Structured table references
 
 ✅ Ignores zero salaries automatically
 ✅ Works with large structured datasets
@@ -59,7 +59,7 @@ Structured table references
                         └── dashboard.png
                             
 
-📈 How It Works
+### How It Works
 
 The core formula logic:
 
@@ -73,7 +73,7 @@ The core formula logic:
                                   )
                         )
 
-🔍 What This Formula Does
+### What This Formula Does
 
 Filters rows where:
 
@@ -99,7 +99,7 @@ Results are country-specific
 
 Results are schedule-specific
 
-#🧠 Why Median Instead of Average?
+### Why Median Instead of Average?
 
 The median is used instead of the average because:
 
@@ -109,10 +109,10 @@ Median gives a more realistic central salary
 
 Better for job market analysis
 
-## 📊 Dashboard Preview
-![Dashboard](dashboard.png)
+##  Dashboard Preview
+<img width="1887" height="740" alt="image" src="https://github.com/user-attachments/assets/f051bf74-a087-4665-9da1-2c98870206b6" />
 
-🚀 How to Use
+### How to Use
 
 Open Job_Salary_Analysis.xlsx
 
@@ -169,6 +169,7 @@ The dataset used in this project was provided by Luke Barousse through his platf
 Special thanks to Luke Barousse for making high-quality job market datasets available for educational and analytical purposes.
 
 This project is an independent analysis and is not officially affiliated with Luke Barousse or Datanerd.Tech.
+
 
 
 
