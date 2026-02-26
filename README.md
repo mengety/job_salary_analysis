@@ -1,6 +1,10 @@
-#Job Salary Analysis (Excel Project)
-### Project Overview
+# Job Salary Analysis (Excel Project)
 
+##  Dashboard Preview
+<img width="1887" height="740" alt="image" src="https://github.com/user-attachments/assets/f051bf74-a087-4665-9da1-2c98870206b6" />
+
+
+## Project Overview
 This project is an interactive Excel-based salary analysis tool that helps users determine the median salary of a job based on:
 
               🌍 Country
@@ -109,9 +113,6 @@ Median gives a more realistic central salary
 
 Better for job market analysis
 
-##  Dashboard Preview
-<img width="1887" height="740" alt="image" src="https://github.com/user-attachments/assets/f051bf74-a087-4665-9da1-2c98870206b6" />
-
 ### How to Use
 
 Open Job_Salary_Analysis.xlsx
@@ -169,6 +170,7 @@ The dataset used in this project was provided by Luke Barousse through his platf
 Special thanks to Luke Barousse for making high-quality job market datasets available for educational and analytical purposes.
 
 This project is an independent analysis and is not officially affiliated with Luke Barousse or Datanerd.Tech.
+
 
 
 
