@@ -11,7 +11,7 @@ This project is an interactive Excel-based salary analysis tool that helps users
 
              🕒 Job Schedule Type (Full-time, Part-time, Contract, etc.)
 
- ##Job Title
+ ## Job Title
 
 The goal is to help job seekers, analysts, and researchers quickly analyze salary trends across different countries and work types using structured Excel formulas and data filtering techniques.
 
@@ -170,6 +170,7 @@ The dataset used in this project was provided by Luke Barousse through his platf
 Special thanks to Luke Barousse for making high-quality job market datasets available for educational and analytical purposes.
 
 This project is an independent analysis and is not officially affiliated with Luke Barousse or Datanerd.Tech.
+
 
 
 
